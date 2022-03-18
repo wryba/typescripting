@@ -1,0 +1,8 @@
+node_modules
+dist
+debug.log
+**/package-lock.json
+**/scss/*.css*
+**/test-*.xml
+karma_test_files
+coverage

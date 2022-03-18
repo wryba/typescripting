@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es6",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "baseUrl": "./",
+        "declaration": true,
+        "typeRoots": ["node_modules/@types", "src/types", "src/assets"],
+        "resolveJsonModule": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./test/**/*", "./dist/**/*"]
+}
