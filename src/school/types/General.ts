@@ -1,4 +1,4 @@
-export class Types {
+export class General {
     public unknownVsAny(): void {
         // To 'any' and 'unknown' you can assign anything - this is OK
         const anyVar: any = 'anyVariable';
@@ -17,7 +17,7 @@ export class Types {
         // 'any' allows to call function/s - possible error will be thrown on runtime
         anyVar.trim();
 
-        // 'unknow' does not allow to call function/s - this is ERROR 
+        // 'unknow' does not allow to call function/s - this is ERROR
         // unknownVar.trim()
     }
 }

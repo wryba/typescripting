@@ -1,1 +1,1 @@
-export { Types } from 'src/school/Types'
+export { General } from './school/types/General'
