@@ -1,0 +1,1 @@
+export { Types } from 'src/school/Types'
