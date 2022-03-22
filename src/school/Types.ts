@@ -1,14 +1,5 @@
 export class Types {
     public unknownVsAny(): void {
-        // any, unknown:
-        // allow assigning any type
-        // any:
-        // allows being assigned to any type
-        // allows calling any method
-        // unknown:
-        // doesn't allow being assigned to any type
-        // doesn't allow calling any method
-
         // To 'any' and 'unknown' you can assign anything - this is OK
         const anyVar: any = 'anyVariable';
         const unknownVar: unknown = 'unknownVariable';
