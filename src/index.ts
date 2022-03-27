@@ -1,1 +1,1 @@
-export { General } from './school/types/General'
+export { General } from './school/types/General';
